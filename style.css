@@ -38,7 +38,7 @@
 /* Header Styles */
 header {
     background: rgba(255, 144, 14, 0.10);
-    padding: 50px 240px;
+    padding: 50px 100px;
 
 }
 
@@ -118,3 +118,14 @@ nav ul li a {
 }
 
 /* For Tablet or Medium Devise */
+@media screen and (min-width:576px) and (max-width:960px) {
+    header{
+        padding: 24px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav ul li a {
+        margin-right: 32px;
+    }
+}
