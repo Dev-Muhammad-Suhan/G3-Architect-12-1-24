@@ -27,14 +27,12 @@
 .btn-primary {
     border-radius: 8px;
     background: #FF900E;
-    width: 180px;
-    height: 64px;
+    padding: 20px 25px;
     border: none;
-
     color: #FFF;
-    font-family: Work Sans;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
+    cursor: pointer;
 }
 
 /* Header Styles */
@@ -65,7 +63,7 @@ nav ul {
 }
 
 nav ul li a {
-    margin-left: 24px;
+    margin-right: 24px;
     text-decoration: none;
     color: #424242;
     text-align: center;
@@ -99,4 +97,24 @@ nav ul li a {
 }
 .banner img {
     margin: 0 auto;
+    width: 100%;
 }
+
+
+
+/* Responsive Media Queries */
+
+/* For Mobile Devices */
+@media screen and (max-width:576px) {
+    header{
+        padding: 10px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav ul li a {
+        margin-right: 18px;
+    }
+}
+
+/* For Tablet or Medium Devise */
