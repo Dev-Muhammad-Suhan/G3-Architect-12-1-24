@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:wght@300;400;700;900&family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+/* Sheared Style */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
+.description {
+    color: #727272;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #FF900E;
+    width: 180px;
+    height: 64px;
+    border: none;
+
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Header Styles */
+header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h3 {
+    color: #131313;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 2.8rem;
+    /* 45/16 = 2.8 */
+    font-weight: 700;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li a {
+    margin-left: 24px;
+    text-decoration: none;
+    color: #424242;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+/* Banner Style */
+.banner {
+    text-align: center;
+}
+
+.banner-content {
+    max-width: 862px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.banner-title {
+    color: #131313;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-top: 116px;
+    margin-bottom: 20px;
+}
+.banner-content button{
+    margin-top: 32px;
+    margin-bottom: 50px;
+}
+.banner img {
+    margin: 0 auto;
+}
